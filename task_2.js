@@ -37,7 +37,11 @@ let obj_2 = {
     email: 'alexa@yahoo.com',
     age: 24
 };
-console.log(obj_2.email);
+if (obj.email === obj_2.email) {
+  console.log('Email is the same');
+} else {
+    console.log('Emails are different');
+}
 /* EXERCISE 6
 You are working for a eCommerce. In the variable totalShoppingCart you have the total amount spent by the current user.
 In your eCommerce you have a promotion: if the customer shopping cart is more than 50€, they can have free shipping (otherwise it costs 10€).
